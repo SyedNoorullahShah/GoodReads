@@ -8,6 +8,7 @@ After the user submits a query for a book search, the app automatically filters 
 - **IDE:** Android Studio
 - **Language:** Java
 - **Architecture:** MVVM
+- **API:** [Google Books API](https://developers.google.com/books)
 ## Libraries
 - **Database:** Room
 - **Networking:** Android SDK native networking libraries
