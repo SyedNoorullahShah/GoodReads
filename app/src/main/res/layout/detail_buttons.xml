@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_view_online"
+        android:drawableTop="@drawable/online"
+        android:text="View Online"
+        style="@style/details_btn" />
+
+    <Button
+        android:id="@+id/btn_favourite"
+        android:drawableTop="@drawable/add"
+        android:text="Favourite"
+        style="@style/details_btn" />
+    <Button
+        android:id="@+id/btn_read_later"
+        android:drawableTop="@drawable/later"
+        android:text="Read Later"
+        style="@style/details_btn" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:drawableTop="@drawable/download"
+        android:text="Download"
+        style="@style/details_btn" />
+
+</LinearLayout>

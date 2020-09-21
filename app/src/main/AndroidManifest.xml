@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.justjava">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS"
+        android:maxSdkVersion="22" />
+
+    <application
+        android:name="com.example.android.goodreads.BookApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.android.goodreads.HomeActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.example.android.goodreads.ui.bookviewer.BookViewerActivity"
+            android:configChanges="orientation|screenSize"/>
+
+        <!-- Searchable activity ! -->
+        <activity
+            android:name="com.example.android.goodreads.ui.search.SearchActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.example.android.goodreads.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.example.android.goodreads.ui.bookdetail.BookDetailActivity"
+            android:parentActivityName="com.example.android.goodreads.ui.search.SearchActivity" />
+
+        <service android:name="com.example.android.goodreads.service.DownloadService" />
+        <receiver android:name="com.example.android.goodreads.receiver.ActionReceiver" />
+    </application>
+
+</manifest>

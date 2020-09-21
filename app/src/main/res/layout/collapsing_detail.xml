@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/cover_detail"
+        android:layout_width="124dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover" />
+
+    <TextView
+        android:id="@+id/title_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="3"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:text=" android sdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsdsd"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/cover_detail"
+        app:layout_constraintStart_toStartOf="@+id/cover_detail"
+        app:layout_constraintTop_toBottomOf="@+id/cover_detail"
+        app:layout_constraintWidth_max="280dp" />
+
+    <TextView
+        android:id="@+id/book_lang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:textColor="#C8C8C8"
+        android:text="EN"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cover_detail"
+        app:layout_constraintStart_toEndOf="@+id/cover_detail"
+        app:layout_constraintTop_toTopOf="@+id/cover_detail" />
+    <include
+        android:id="@+id/btn_rate"
+        layout="@layout/rate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cover_detail"
+        app:layout_constraintEnd_toStartOf="@+id/cover_detail"
+        app:layout_constraintTop_toTopOf="@+id/cover_detail" />
+
+    <TextView
+        android:id="@+id/author_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:text="P.K Dixit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cover_detail"
+        app:layout_constraintStart_toStartOf="@+id/cover_detail"
+        app:layout_constraintTop_toBottomOf="@+id/title_detail" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
