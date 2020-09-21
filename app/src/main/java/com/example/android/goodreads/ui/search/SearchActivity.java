@@ -21,9 +21,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.goodreads.data.BookListItem;
-import com.example.android.justjava.R;
+import com.example.android.goodreads.R;
 import com.example.android.goodreads.ui.bookdetail.BookDetailActivity;
-import com.example.android.justjava.databinding.ActivitySearchBinding;
+import com.example.android.goodreads.databinding.ActivitySearchBinding;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 import com.example.android.goodreads.listeners.UpdateListListener;
 import com.example.android.goodreads.network.BookNetworkAccess;

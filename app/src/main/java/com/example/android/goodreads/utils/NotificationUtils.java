@@ -15,7 +15,7 @@ import androidx.core.app.NotificationManagerCompat;
 
 import com.example.android.goodreads.receiver.ActionReceiver;
 import com.example.android.goodreads.ui.bookdetail.BookDetailActivity;
-import com.example.android.justjava.R;
+import com.example.android.goodreads.R;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 

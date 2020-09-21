@@ -5,8 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.android.goodreads.data.BookListItem;
-import com.example.android.justjava.R;
-import com.example.android.justjava.databinding.RelatedBookItemBinding;
+import com.example.android.goodreads.R;
+import com.example.android.goodreads.databinding.RelatedBookItemBinding;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 import com.squareup.picasso.Picasso;
 

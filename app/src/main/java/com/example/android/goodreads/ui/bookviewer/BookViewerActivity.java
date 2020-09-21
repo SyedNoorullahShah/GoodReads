@@ -19,8 +19,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.core.content.ContextCompat;
 
-import com.example.android.justjava.R;
-import com.example.android.justjava.databinding.ActivityBookViewerBinding;
+import com.example.android.goodreads.R;
+import com.example.android.goodreads.databinding.ActivityBookViewerBinding;
 import com.github.barteksc.pdfviewer.PDFView;
 import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
 

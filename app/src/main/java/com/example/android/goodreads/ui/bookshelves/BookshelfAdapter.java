@@ -21,8 +21,8 @@ import com.example.android.goodreads.ui.bookshelves.BookshelvesFragment;
 import com.example.android.goodreads.data.BookListItem;
 import com.example.android.goodreads.data.BookShelf;
 import com.example.android.goodreads.ui.bookdetail.HorizontalBookListAdapter;
-import com.example.android.justjava.R;
-import com.example.android.justjava.databinding.BookshelfItemBinding;
+import com.example.android.goodreads.R;
+import com.example.android.goodreads.databinding.BookshelfItemBinding;
 import com.example.android.goodreads.listeners.OnViewAllChildListListener;
 
 import java.util.ArrayList;

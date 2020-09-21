@@ -15,12 +15,13 @@ import androidx.appcompat.widget.SearchView;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
+
 import com.example.android.goodreads.ui.bookdetail.BookDetailActivity;
 import com.example.android.goodreads.ui.bookshelves.BookshelvesFragment;
 import com.example.android.goodreads.ui.downloads.DownloadsFragment;
 import com.example.android.goodreads.ui.search.SearchActivity;
-import com.example.android.justjava.R;
-import com.example.android.justjava.databinding.ActivityHomeBinding;
+import com.example.android.goodreads.R;
+import com.example.android.goodreads.databinding.ActivityHomeBinding;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -68,7 +69,7 @@ public class HomeActivity extends AppCompatActivity implements OnBookItemClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d("noor", "ACTIVITY ---------- onCreate: ");
-        com.example.android.justjava.databinding.ActivityHomeBinding homeBinding = ActivityHomeBinding.inflate(getLayoutInflater());
+        ActivityHomeBinding homeBinding = ActivityHomeBinding.inflate(getLayoutInflater());
         setContentView(homeBinding.getRoot());
         setSupportActionBar(homeBinding.homeToolbar.getRoot());
 

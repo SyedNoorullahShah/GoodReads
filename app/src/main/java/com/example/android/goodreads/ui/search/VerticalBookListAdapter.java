@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.goodreads.data.BookListItem;
 import com.example.android.goodreads.ui.search.SearchActivity;
-import com.example.android.justjava.R;
+import com.example.android.goodreads.R;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 import com.example.android.goodreads.listeners.UpdateListListener;
 import com.example.android.goodreads.network.BookNetworkAccess;

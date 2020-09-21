@@ -21,7 +21,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.goodreads.database.BookDownloadEntity;
 import com.example.android.goodreads.ui.bookdetail.BookDetailActivity;
-import com.example.android.justjava.databinding.FragmentDownloadsBinding;
+import com.example.android.goodreads.databinding.FragmentDownloadsBinding;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 
 import java.io.File;

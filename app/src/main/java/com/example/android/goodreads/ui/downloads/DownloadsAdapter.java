@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.android.goodreads.database.BookDownloadEntity;
 import com.example.android.goodreads.listeners.OnBookItemClickListener;
 import com.example.android.goodreads.ui.downloads.DownloadsFragment;
-import com.example.android.justjava.R;
+import com.example.android.goodreads.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
