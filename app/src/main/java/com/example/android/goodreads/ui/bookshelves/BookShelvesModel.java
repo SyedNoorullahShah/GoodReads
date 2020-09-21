@@ -9,7 +9,7 @@ import com.example.android.goodreads.repository.Repository;
 
 import java.util.ArrayList;
 
-class BookShelvesModel extends ViewModel {
+public class BookShelvesModel extends ViewModel {
     private Repository repository;
     private MutableLiveData<ArrayList<BookShelf>> bookShelfLiveData;
     private ArrayList<BookShelf> bookShelves;

@@ -23,9 +23,9 @@ public interface DownloadDAO {
     @Delete
     void delete(BookDownloadEntity download);
 
-    @Query("SELECT * FROM BookDownloadEntity")
+    @Query("SELECT * FROM DOWNLOAD_TABLE")
     LiveData<List<BookDownloadEntity>> getAllDownloads();
 
-    @Query("SELECT * FROM BookDownloadEntity WHERE  bookId=:bookId")
+    @Query("SELECT * FROM download_table WHERE  bookId=:bookId")
     Book getBook(String bookId);
 }
