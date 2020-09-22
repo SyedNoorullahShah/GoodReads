@@ -1,8 +1,8 @@
 # Good Reads
 
 ## About this project
-Good Reads is a book reading android app that gives users the automatic access to all of the free books provided by [Google Books](books.google.com) and uses [Google Books API](https://developers.google.com/books) as the back-end.
-After the user submits a query for a book search, the app automatically filters out all of the **free completely accessible books**  from the search results which the user can then download or read online.
+Good Reads is a book reading android app that gives users the **automatic access** to all of the free books provided by [Google Books](books.google.com) and uses [Google Books API](https://developers.google.com/books) as the back-end.
+Users can also access and add books to their google books library bookshelves (i.e Favourites, To Read, Have Read, etc) 
 ## Built using
 - **Tools:** Android SDK
 - **IDE:** Android Studio
